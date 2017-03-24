@@ -52,6 +52,7 @@ static MFProgressCallback progblock = ^(double progress) {
     if ( errorcb == nil ) {
         return [ignoreblock copy];
     } else {
+        
         return errorcb;
     }
 }

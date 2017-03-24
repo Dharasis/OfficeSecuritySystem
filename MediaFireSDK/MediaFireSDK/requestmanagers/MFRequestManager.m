@@ -137,7 +137,7 @@ static MFRequestManager* instance = nil;
     if ( email == nil || password == nil ) {
         if ( callbacks != nil ) {
             callbacks.onerror([MFErrorMessage noCredentials]);
-        }
+  }
     } else {
         [[MFConfig credentialsDelegate] setMediaFire:email withPassword:password];
         [[MFConfig serialRequestDelegate] login:[[MFConfig credentialsDelegate] getCredentials] callbacks:callbacks];
