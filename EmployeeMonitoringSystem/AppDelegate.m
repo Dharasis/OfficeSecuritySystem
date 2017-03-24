@@ -39,6 +39,12 @@
     mainWindowCon=[[MainWindowController alloc]initWithWindowNibName:@"MainWindowController"];
     [mainWindowCon.window makeMainWindow];
     [mainWindowCon showWindow:self];
+    
+    
+    
+    NSLog(@"Sudip");
+    
+    
 
 }
 - (void)applicationWillTerminate:(NSNotification *)notification;
