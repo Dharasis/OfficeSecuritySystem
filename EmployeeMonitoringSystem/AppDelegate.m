@@ -35,6 +35,8 @@
     [self getSerialNumber];
 
     
+   
+    
     [self.window resignMainWindow];
     mainWindowCon=[[MainWindowController alloc]initWithWindowNibName:@"MainWindowController"];
     [mainWindowCon.window makeMainWindow];
