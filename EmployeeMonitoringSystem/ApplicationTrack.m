@@ -28,7 +28,10 @@
     
     }
     
+    NSLog(@"Dharasis");
 
+    
+    
     
     return getPathApplicationsUsed;
 
