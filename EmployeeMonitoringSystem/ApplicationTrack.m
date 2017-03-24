@@ -28,7 +28,7 @@
     
     }
     
-    NSLog(@"Dharasis");
+    NSLog(@"Dharasisi i am changing you");
 
     
     
