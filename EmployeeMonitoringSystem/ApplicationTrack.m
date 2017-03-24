@@ -31,7 +31,7 @@
     
     
     NSLog(@"Dharasisi i am changing you");
-
+    int i = 0;
     
     
     
